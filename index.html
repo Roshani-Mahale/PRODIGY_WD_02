@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="stopwatchDuration">00:00:00:00</div> <!-- Changed to camelCase to match JS -->
+    <ul id="laps"></ul>
+    <div class="lapsButtons">
+      <button id="reset" style="display:none;">Reset</button> <!-- Added "Reset" text -->
+      <button id="lap" disabled>Lap</button>
+      <button id="start">Start</button>
+      <button id="stop" style="display:none;">Stop</button>
+    </div>
+  </div>
+</body>
+<script defer src="script.js"></script>
+</html>
